@@ -1,0 +1,6 @@
+def remove_duplicates(lst):
+    return list(set(lst))
+
+numbers = [1, 2, 3, 2, 1, 3, 4, 5, 4]
+unique_numbers = remove_duplicates(numbers)
+print(unique_numbers)
